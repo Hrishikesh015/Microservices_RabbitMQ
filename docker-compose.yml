@@ -38,5 +38,3 @@ services:
       context: ./consumer4
       dockerfile: Dockerfile
     container_name: consumer4
-    
-    

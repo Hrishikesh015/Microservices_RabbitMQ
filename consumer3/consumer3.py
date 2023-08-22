@@ -29,6 +29,3 @@ def callback(ch, method, properties, body):
 
 channel.basic_consume(queue='deletion_queue', on_message_callback=callback)
 channel.start_consuming()
-
-
-

@@ -26,6 +26,3 @@ def callback(ch, method, properties, body):
 
 channel.basic_consume(queue='health_check', on_message_callback=callback)
 channel.start_consuming()
-
-
-

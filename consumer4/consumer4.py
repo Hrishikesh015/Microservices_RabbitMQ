@@ -37,6 +37,3 @@ channel.basic_consume(queue='read_queue', on_message_callback=callback)
 print('Waiting for messages.')
 
 channel.start_consuming()
-
-
-
